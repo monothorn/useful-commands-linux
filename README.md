@@ -7,6 +7,16 @@ Commands I like to use.
 ```
 service --status-all
 
+ [ + ]  acpid
+ [ + ]  apparmor
+ [ + ]  apport
+ [ + ]  atd
+ [ - ]  bootmisc.sh
+ [ - ]  checkfs.sh
+ [ - ]  checkroot-bootclean.sh
+ [ - ]  checkroot.sh
+ [ - ]  console-setup
+
 ```
 
 2.
