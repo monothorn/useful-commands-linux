@@ -18,5 +18,12 @@ service --status-all
  [ - ]  console-setup
 
 ```
+2. List all remote branches for a repo
 
-2.
+```
+git status -r
+
+origin/develop
+origin/feature/f1
+origin/feature/f2
+```
