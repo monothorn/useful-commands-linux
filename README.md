@@ -27,3 +27,20 @@ origin/develop
 origin/feature/f1
 origin/feature/f2
 ```
+
+
+3. Building docker images with static go builds
+
+```
+Step 1 : Build go image
+CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o ../../build/consumer/consumer .
+CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o ../../build/producer/producer .
+
+
+Step 2 : Build docker image
+sudo docker build -t k_producer -f Dockerfile .
+sudo docker build -t k_consumer -f Dockerfile .
+
+Step 3 : Run docker image
+
+```
