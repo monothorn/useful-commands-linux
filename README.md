@@ -21,7 +21,7 @@ service --status-all
 2. List all remote branches for a repo
 
 ```
-git status -r
+git branch -r
 
 origin/develop
 origin/feature/f1
