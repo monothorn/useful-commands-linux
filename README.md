@@ -44,3 +44,11 @@ sudo docker build -t k_consumer -f Dockerfile .
 Step 3 : Run docker image
 
 ```
+
+4. Clear python virtual env
+
+```
+virtualenv --clear venv
+
+```
+
