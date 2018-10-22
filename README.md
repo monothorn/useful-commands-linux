@@ -52,3 +52,13 @@ virtualenv --clear venv
 
 ```
 
+5. Find path and installation dir for a package
+
+```
+For eg for VSCode
+$ which code
+/usr/bin/code
+$ whereis code
+code: /usr/bin/code /usr/share/code
+```
+
